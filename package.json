@@ -1,0 +1,22 @@
+{
+  "name": "cypress_2024",
+  "version": "1.0.0",
+  "description": "This repo is based on - https://cognizant.udemy.com/course/cypress-tutorial/learn/lecture/15647598#overview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sowmia55/Cypress_2024.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sowmia55/Cypress_2024/issues"
+  },
+  "homepage": "https://github.com/Sowmia55/Cypress_2024#readme",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}
