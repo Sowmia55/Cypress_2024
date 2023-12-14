@@ -105,3 +105,15 @@ Best Practices in building Cypress Framework
 
 Assertions - https://docs.cypress.io/guides/references/assertions
 https://cloud.cypress.io/organizations/f7289fa6-91d4-4bc0-a06d-512433fe21bc/projects
+
+
+Cypress with Typescript:
+1. Create empty folder for a new project
+2. Open the project folder in VS Code
+3. Run commands:
+   npm init -y
+   npm install cypress
+   npm instakk typescript
+4. Initialize a new tsconfig.json file using command: npx tsc --init --tyores cyoress --lib don,es6
+    Note:  this ensure that tyoes for cypress are accessible by typescript.These types depend on dom & es6, so we pass them as lib option to typescript
+5. Open TestRunner using command: npx cypress open
