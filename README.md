@@ -113,8 +113,8 @@ Cypress with Typescript:
 3. Run commands:
    npm init -y
    npm install cypress
-   npm instakk typescript
-4. Initialize a new tsconfig.json file using command: npx tsc --init --tyores cyoress --lib don,es6
+   npm install typescript
+4. Initialize a new tsconfig.json file using command: npx tsc --init --types cypress --lib don,es6
     Note:  this ensure that tyoes for cypress are accessible by typescript.These types depend on dom & es6, so we pass them as lib option to typescript
 5. Open TestRunner using command: npx cypress open
 
