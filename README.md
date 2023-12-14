@@ -65,3 +65,43 @@ if promise is pending it means
 
 to automate frames 
 npm install -D cypress-iframe
+
+Notes:
+1. Navigating to url - visit
+2. Through command line, Cypress runs in headless in electron
+3. Update configurations in cypress.json which over rides existing behaviour.
+4. Cypress supports Css selectors only
+5. We can see what happened on every step with screenshot and error messages in cypress
+6. how to handle click, type, text()
+7. Iterating over the aray of web elements using each
+8. Cypress is asynchronus in nature and there is no guarantee in sequence of execution, but cypress takes care of it 
+9. Promise comes with rejection, resolved,pending
+.then()
+10. Non cypress commands cannot resolve promise by themselves. We need to manually resolve it by then ()
+11. Aliasing to reuse locators- 
+12. Cypress auto accepts alerts and pop ups
+13. Cypress have capability of browser events. window:alert is the event which get fired on alert open
+14. So you are firing the event through cypress to get access to that alert
+15. Cypress have ability to manipulate the DOM-
+16. Yes you can traverse to sibling with next() and it works only on get
+17. Mouse hover events are not supported in cypres. Alternatively use jquery or force click
+18. Handle child windows
+19. Handle frames
+
+
+Best Practices in building Cypress Framework
+1. Setting up test Hooks
+2. Data driven testing with fixtures
+3. Building Custom Cypress Commands
+4. Parameterize test with multiple data sets
+5. Understand the test debugging
+6. Build page object design pattern for objects
+7. Configuration changes in Cypress.config.js
+8. Screenshots and video recording for test
+9. Exploring Cypress Dashboard
+10. Understand the environmental variables of cypress
+12. Generate Excellent reports for test execution results
+13. Integrate  cypress tests with JEnkins CI
+
+Assertions - https://docs.cypress.io/guides/references/assertions
+https://cloud.cypress.io/organizations/f7289fa6-91d4-4bc0-a06d-512433fe21bc/projects

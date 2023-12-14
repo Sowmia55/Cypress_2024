@@ -4,5 +4,5 @@
     "lib": ["es5", "dom"],
     "types": ["cypress", "node"]
   },
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts", "cypress/integration/web-ui-scripts/framework.spec.js", "cypress/support/commands.js", "cypress/support/commands.js"]
 }
