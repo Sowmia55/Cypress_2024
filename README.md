@@ -117,3 +117,9 @@ Cypress with Typescript:
 4. Initialize a new tsconfig.json file using command: npx tsc --init --tyores cyoress --lib don,es6
     Note:  this ensure that tyoes for cypress are accessible by typescript.These types depend on dom & es6, so we pass them as lib option to typescript
 5. Open TestRunner using command: npx cypress open
+
+
+to run in cypress cloud
+
+npx cypress run --record --key 6bc10e7d-ad2a-4cb3-94e4-de88e7eac426
+cg=hange spec pattern in cypress.config.ts
